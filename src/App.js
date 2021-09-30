@@ -1,22 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import SagaApp from './21-ReduxSagaClassComp/SagaApp'
+import SagaFnApp from './22-ReduxSagaFunctionComp/SagaFnApp'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <SagaApp></SagaApp>
+       <SagaFnApp></SagaFnApp>
       </header>
     </div>
   );
